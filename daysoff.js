@@ -19,3 +19,8 @@ const dayOff = (day) => {
 
 dayOff('Friday')
 console.log(dayOff('Friday'))
+
+// concise body
+const dayOff = day => day === 'Wednesday' ? true : false; 
+// removed return bc we have only one line
+// concise body + ternary operator
